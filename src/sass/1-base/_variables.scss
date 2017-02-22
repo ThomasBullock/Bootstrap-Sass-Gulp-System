@@ -1,0 +1,35 @@
+/* ================================= 
+  Variables
+==================================== */
+
+// Media Breakpoints
+// $desktop: new-breakpoint(min-width 1025px 12);
+// $tablet: new-breakpoint(min-width 768px max-width 1024px 12);
+// $phone: new-breakpoint(min-width 320px max-width 767px 12);
+
+
+// Typography
+@import "fonts";
+
+@include Lato;
+@include Montserrat;
+
+
+$base-font-family: $Lato;
+$heading-font-family: $Montserrat;
+
+// Colors
+$blue: #1565c0;
+$dark-gray: #333;
+$medium-gray: #999;
+$light-gray: #ddd;
+
+// Font Colors
+$base-font-color: $dark-gray;
+$action-color: #FFF;
+
+// Animations
+$base-duration: 150ms;
+$base-timing: ease;
+
+
