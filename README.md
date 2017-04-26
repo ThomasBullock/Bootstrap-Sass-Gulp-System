@@ -27,6 +27,8 @@ Bootstrap-Sass-Gulp-System/
     css/
       styles.css
       styles.css.map
+    fonts/
+      bootstrap/  
     js/
       app.js
       app.js.map
@@ -38,6 +40,7 @@ Bootstrap-Sass-Gulp-System/
         main.js
       sass/
         0-plugins/
+          font-awesome
         1-base/
           mixins/
         2-modules/
