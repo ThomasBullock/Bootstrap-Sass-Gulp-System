@@ -40,6 +40,7 @@ gulp.task("minifyScripts", ["transpile"], function(){
 		.pipe(gulp.dest('js'));
 });
 
+
 gulp.task("compileSass", function(){
 	return gulp.src("src/sass/styles.scss")
 	.pipe(sass().on('error', sass.logError))
@@ -59,13 +60,13 @@ gulp.task("minifyCss", ["compileSass"], function(){
 });
 
 gulp.task('watchFiles', function() {
-	gulp.watch(['src/sass/**/*.scss', 'node_modules/bootstrap-sass/assets/stylesheets/**/*.scss'], ['compileSass']);
-	gulp.watch('src/javascript/main.js', ['concatScripts'])
+	gulp.watch(['node_modules/bootstrap-sass/assets/stylesheets/**/*.scss', 'src/sass/**/*.scss'], ['compileSass']);
+	gulp.watch(['src/javascript/main.js'], ['concatScripts'])
 });
 
 gulp.task('build', ["minifyScripts", "minifyCss"], function(){
 	console.log("Remember to change index.html links to minified versions");
-	return gulp.src(["js/app.min.js", "index.html", "img/**", "fonts/**"] , { base: "./"})
+	return gulp.src(["js/app.min.js", "index.html", "img/**", "fonts/**", "data/**"] , { base: "./"})
 			.pipe(gulp.dest('dist'));
 });
 

@@ -19,17 +19,61 @@ $base-font-family: $Lato;
 $heading-font-family: $Montserrat;
 
 // Colors
-$blue: #1565c0;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+
+
+$snow          : #F9F9F9 !default;
+$vapor         : #F6F6F6 !default;
+$white-smoke   : #F5F5F5 !default;
+$silver        : #EFEFEF !default;
+$smoke         : #EEEEEE !default;
+$gainsboro     : #DDDDDD !default;
+$iron          : #CCCCCC !default;
+$base          : #AAAAAA !default;
+$aluminum      : #999999 !default;
+$jumbo         : #888888 !default;
+$monsoon       : #777777 !default;
+$steel         : #666666 !default;
+$charcoal      : #555555 !default;
+$tuatara       : #444444 !default;
+$oil           : #333333 !default;
+$jet           : #222222 !default;
+$ebony         : #111111 !default;
+$black         : #000000 !default;
+
+$golden        : #F5A623;
+$green		     : #7ED321;
+$red           : #D0021B; 
+$blue          : #1565c0;
+
+/// social media colors ////
+
+$facebook-blue     : #3b5998;
+$bandcamp-blue     : #629aa9;
+$twitter-blue      : #1da1f2;
+$skype-blue        : #00aff0;      
+$soundcloud-orange : #ff8800;
+$spotify-green     : #2ebd59;
+$snapchat-yellow   : #fffc00;
+$youtube-red       : #cd201f;
+$tumblr-grey       : #35465c;
+$song-kick         : #f80046;
+
+$instagram-blue    : #405de6;
+$instagram-purple  : #833ab4;
+$instagram-orange  : #fcaf45;
+$instagram-yellow  : #ffdc80;
 
 // Font Colors
-$base-font-color: $dark-gray;
+$base-font-color: $oil;
 $action-color: #FFF;
+
+
+// Spacing
+$base-spacing: 1.5em;
 
 // Animations
 $base-duration: 150ms;
 $base-timing: ease;
+
 
 
